@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, .capa{
+	height: 100%;
+}
+body{
+	background: url(../img/capa.png),url(../img/ruido.png),linear-gradient(50deg,#FF4169,#7C26F8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+/* Barra de Navegação*/
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url(../img/spotify.svg) no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparent{
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 5px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin:16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
+    color: #1db954;
+	background: none;
+}
+
+/*Imagem de Capa*/
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.text-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
+/* Botoes*/
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition:background 0.4s, color 0.4s;
+}
+
+.btn-purple{
+	
+	background: #7C25F8;
+}
+.btn-purple:hover{
+	color: white;
+	background-color: #6207E3;
+}
+.btn-white{
+	
+	border: 2px solid #FFFFFF;
+}
+.btn-white:hover{
+	
+	color: black;
+	background-color: #FFFFFF;
+}
+
+#servicos{
+	padding: 20px 0;
+	background: white;
+	
+}
+.albuns{
+	padding: 10px 0;
+}
+
+#recursos{
+	padding: 20px 0;
+	color: white;
+}
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	padding-bottom: 5px;
+}
+
+.text-purple{
+	color: #7C25F8;
+}
+#servicos h2, #servicos h3{
+	color: #7C25F8;
+}
+
+#recursos h3{
+	color: #9BF0E1;
+}
+
+.rotacionar{
+	padding: 25px 0px 0px 80px;
+	transform: rotate(30deg);
+	
+}
+
+footer{
+	position: relative;
+	background: #000000;
+	padding: 50px 0px 20px 0px;
+}
+
+#rodape a{
+	color:#FFFFFF;
+	font-size: 16px;
+    font-weight: 400;
+    padding: .1875em 0;
+    margin-bottom: .75em;
+    display: inline-block;
+}
+
+#rodape h4{
+	font-size: 12px;
+    letter-spacing: .08em;
+	color: #919496;
+}
+.nav>li>a:hover{
+	color: red;
+}
+#item-rede-social{
+	float: right;
+	padding-left: 20px;
+}
